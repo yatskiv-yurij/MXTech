@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MXTech</title>
+</head>
+
+<body class="">
+
+    <header class="header">
+        <video id="background-video" autoplay loop muted>
+            <source src="images/stars.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="header__top">
+                <a href="#" class="logo">
+                    MXTech
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#join" class="menu__link">Вакансії</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#email" class="menu__link">Контакти</a>
+                        </li>
+                    </ul>
+                    <div class="network">
+                        <a href="#" class="network__link">
+                            <svg class="network__img" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="21.8564" cy="21.8564" r="15.5" transform="rotate(-30 21.8564 21.8564)" stroke="url(#paint0_linear_53_15)"/>
+                                <path d="M14.8984 28H13.5703V16.5781H19.9375V17.7578H14.8984V21.9375H19.6328V23.1172H14.8984V28ZM21.8359 16.5781H25.0625C26.5781 16.5781 27.6745 16.8047 28.3516 17.2578C29.0286 17.7109 29.3672 18.4271 29.3672 19.4062C29.3672 20.0833 29.1771 20.6432 28.7969 21.0859C28.4219 21.5234 27.8724 21.8073 27.1484 21.9375V22.0156C28.8828 22.3125 29.75 23.224 29.75 24.75C29.75 25.7708 29.4036 26.5677 28.7109 27.1406C28.0234 27.7135 27.0599 28 25.8203 28H21.8359V16.5781ZM23.1641 21.4688H25.3516C26.2891 21.4688 26.9635 21.3229 27.375 21.0312C27.7865 20.7344 27.9922 20.237 27.9922 19.5391C27.9922 18.8984 27.763 18.4375 27.3047 18.1562C26.8464 17.8698 26.1172 17.7266 25.1172 17.7266H23.1641V21.4688ZM23.1641 22.5938V26.8672H25.5469C26.4688 26.8672 27.1615 26.6901 27.625 26.3359C28.0938 25.9766 28.3281 25.4167 28.3281 24.6562C28.3281 23.9479 28.0885 23.4271 27.6094 23.0938C27.1354 22.7604 26.4115 22.5938 25.4375 22.5938H23.1641Z" fill="url(#paint1_linear_53_15)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_53_15" x1="37.8564" y1="-2.34041" x2="6.78756" y2="-2.34041" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0943286" stop-color="#2C5AF4" stop-opacity="0"/>
+                                <stop offset="0.318287" stop-color="#A400FF"/>
+                                <stop offset="0.90162" stop-color="#2C5AF4" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_53_15" x1="31" y1="5.36469" x2="12.5529" y2="5.36469" gradientUnits="userSpaceOnUse">
+                                <stop class="network__white" stop-color="#A400FF"/>
+                                <stop class="network__white" offset="1" stop-color="#2C5AF4"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#" class="network__link">
+                            <svg class="network__img" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="22.5693" cy="21.8564" r="15.5" transform="rotate(-30 22.5693 21.8564)" stroke="url(#paint0_linear_92_3)"/>
+                                <path d="M15.1396 27.8567V16.4348H16.4678V27.8567H15.1396ZM28.5303 27.8567H27.0146L20.7725 18.2708H20.71C20.7933 19.3958 20.835 20.427 20.835 21.3645V27.8567H19.6084V16.4348H21.1084L27.335 25.9817H27.3975C27.387 25.8411 27.3636 25.3905 27.3271 24.6301C27.2907 23.8645 27.2777 23.3176 27.2881 22.9895V16.4348H28.5303V27.8567Z" fill="url(#paint1_linear_92_3)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_92_3" x1="38.5693" y1="-2.34041" x2="7.50045" y2="-2.34041" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0943286" stop-color="#2C5AF4" stop-opacity="0"/>
+                                <stop offset="0.318287" stop-color="#A400FF"/>
+                                <stop offset="0.90162" stop-color="#2C5AF4" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_92_3" x1="30.5693" y1="5.22138" x2="14.064" y2="5.22138" gradientUnits="userSpaceOnUse">
+                                <stop class="network__white" stop-color="#A400FF"/>
+                                <stop class="network__white" offset="1" stop-color="#2C5AF4"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#" class="network__link">
+                            <svg class="network__img" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="22.2822" cy="21.8564" r="15.5" transform="rotate(-30 22.2822 21.8564)" stroke="url(#paint0_linear_53_17)"/>
+                                <path d="M15.3682 27.8567H14.04V17.6145H10.4229V16.4348H18.9854V17.6145H15.3682V27.8567ZM30.6807 27.8567H29.3682L27.0635 20.2083C26.9541 19.8697 26.8317 19.4426 26.6963 18.927C26.5609 18.4114 26.4906 18.1015 26.4854 17.9973C26.3708 18.6848 26.1885 19.4374 25.9385 20.2551L23.7041 27.8567H22.3916L19.3525 16.4348H20.7588L22.5635 23.4895C22.8135 24.4791 22.9958 25.3749 23.1104 26.177C23.251 25.2239 23.4593 24.2916 23.7354 23.3801L25.7822 16.4348H27.1885L29.3369 23.4426C29.5869 24.2499 29.7979 25.1614 29.9697 26.177C30.0687 25.4374 30.2562 24.5364 30.5322 23.4739L32.3291 16.4348H33.7354L30.6807 27.8567Z" fill="url(#paint1_linear_53_17)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_53_17" x1="38.2822" y1="-2.34041" x2="7.21335" y2="-2.34041" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0943286" stop-color="#2C5AF4" stop-opacity="0"/>
+                                <stop offset="0.318287" stop-color="#A400FF"/>
+                                <stop offset="0.90162" stop-color="#2C5AF4" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_53_17" x1="34.2822" y1="5.22138" x2="10.9806" y2="5.22138" gradientUnits="userSpaceOnUse">
+                                <stop class="network__white" stop-color="#A400FF"/>
+                                <stop class="network__white" offset="1" stop-color="#2C5AF4"/>
+                                </linearGradient>
+                                <linearGradient id="MyGradient">
+                                <stop offset="12.5%" stop-color="#2C5AF4" />
+                                <stop offset="85.8%" stop-color="#A400FF" />
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </nav>
+                <button class="menu__btn"></button>
+            </div>
+
+            <div class="header__bottom">
+                <div class="header__content">
+                    <h1 class="header__title title">Розробляємо та підтримуємо фінтех продукти для глобальних ринків
+                        з 2017 року</h1>
+                    <p class="header__description">Нашими продуктами користуються тисячі користувачів по всьому світу</p>
+                    <a href="#" class="header__btn">Стати членом команди</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hundred">
+            <div class="container">
+                <div class="hundred__inner">
+                    <h2 class="hundred__title title">Ми 100% продуктова компанія</h2>
+                    <p class="hundred__text">Це означає, що ми розвиваємо і покращуємо продукти, що розробляються,
+                        вони задовольняють
+                        реальні потреби тисяч користувачів
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="product">
+            <div class="container">
+                <div class="product__inner">
+                    <div class="product__dots">
+                        <h2 class="product__title title">Наші продукти</h2>
+                    </div>
+                    <div class="product__flex">
+                        <p class="product__text">Платіжний шлюз для прийому платежів у криптовалюті</p>
+                        <p class="product__text">Брокерське рішення для рітейл інвесторів та трейдерів</p>
+                        <p class="product__text">Інвестиційна програма для рітейл інвесторів</p>
+                    </div>
+                    <img src="images/star.svg" alt="" class="product__star">
+                </div>
+            </div>
+        </section>
+
+        <section class="expertise">
+            <div class="container">
+                <div class="expertise__inner">
+                    <div class="expertise__dots">
+                        <h2 class="expertise__title title">Наша експертиза</h2>
+                    </div>
+                    <div class="expertise__flex">
+                        <p class="expertise__text">Розробка високонавантажених фінтех рішень будь-якої складності</p>
+                        <p class="expertise__text">Розробка blockchain рішень, смарт-контрактів на базі відкритих
+                            протоколів</p>
+                        <p class="expertise__text">PR супровід та маркетинг фінтех продуктів на глобальному ринку</p>
+                    </div>
+                    <img src="images/star.svg" alt="" class="expertise__star">
+                </div>
+            </div>
+        </section>
+
+        <section class="stack">
+            <div class="container">
+                <div class="stack__inner">
+                    <h2 class="stack__title title">Наш технологічний стек</h2>
+                    <div class="stack__flex">
+                        <div class="stack__item">
+                            <h4 class="stack__subtitle">Мови програмування</h4>
+                            <div class="stack__technology">
+                                <p class="stack__text">Java</p>
+                                <p class="stack__text">Dart</p>
+                                <p class="stack__text">JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="stack__item">
+                            <h4 class="stack__subtitle">DevOps</h4>
+                            <div class="stack__technology">
+                                <p class="stack__text">Docker</p>
+                                <p class="stack__text">Kubernetis</p>
+                                <p class="stack__text">Cloud servers</p>
+                            </div>
+                        </div>
+                        <div class="stack__item">
+                            <h4 class="stack__subtitle">Фронтенд</h4>
+                            <div class="stack__technology">
+                                <p class="stack__text">ReactJS</p>
+                                <p class="stack__text">Angular</p>
+                            </div>
+                        </div>
+                        <div class="stack__item">
+                            <h4 class="stack__subtitle">Бази данних</h4>
+                            <div class="stack__technology">
+                                <p class="stack__text">Redis</p>
+                                <p class="stack__text">PostgreSQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="values">
+            <div class="container">
+                <div class="values__inner">
+                    <img src="images/star.svg" alt="" class="values__star">
+                    <h2 class="values__title title">Наші цінності</h2>
+                    <div class="values__content">
+                        <div class="values__item">
+                            <img src="images/values.jpg" alt="" class="values__img">
+                        </div>
+                        <div class="values__item">
+                            <h4 class="values__subtitle">100% віддалена робота</h4>
+                            <p class="values__text">Ми вважаємо, що люди повинні працювати в тому місці,
+                                де ним максимально
+                                комфортно, а не там де є офіс. Тому з моменту заснування ми є
+                                прихильниками віддаленої роботи. Усі працівники працюють у зручному для себе місці, 
+                                а зекономлені на оренді офісів кошти ми використовуємо для тимбілдингів у приємних місцях
+                            </p>
+
+                        </div>
+                        <div class="values__item">
+                            <h4 class="values__subtitle">Відсутність твердої ієрархії</h4>
+                            <p class="values__text">Будь-який член нашої команди може відкрито висловитися по будь-кому
+                                питання, безпосередньо вплинути на прийняті рішення і навіть на вектор розвитку компанії.
+                                SCRUM для нас не формальність — ми дійсно працюємо по ньому
+                            </p>
+                        </div>
+                        <div class="values__item">
+                            <h4 class="values__subtitle">Можливості та відповідальність</h4>
+                            <p class="values__text">Ми заохочуємо ініціативу і даємо можливості зростання.
+                                У нас не вийде
+                                розчинитися в колективі — кожен член команди на виду, у кожного великі
+                                можливості та відповідальність, кожен впливає на кінцевий результат
+                                і поділяє наш успіх
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <section class="mart">
+            <div class="container">
+                <div class="mart__inner">
+                    <div class="mart__content">
+                        <h2 class="mart__title title">За 4 роки на ринку </h2>
+                        <p class="mart__text">
+                            Ми створили успішні продукти, що стабільно приносять прибуток і вкотре зростають
+                            від місяця до місяця, ми незалежні від потрясінь локального ринку
+                        </p>
+                    </div>
+                    <img src="images/mart.jpg" alt="" class="mart__img">
+                    <img src="images/star.svg" alt="" class="mart__star">
+                </div>
+            </div>
+        </section>
+
+        <section class="join" id="join">
+            <div class="container">
+                <div class="join__inner">
+                    <h3 class="join__title title">Готовий до нас приєднатися?</h3>
+
+                    <div class="join__content">
+                        <div class="join__item">
+                            <label for="check" class="join__work">
+                                <p class="join__text">All world</p>
+                                <h3 class="join__subtitle">QA Engineer</h3>
+                                <p class="join__text">від 35 000</p>
+                            </label>
+                            <input type="checkbox" class="join__check" id="check">
+                            <div class="join__description">
+                                <p class="join__text-desc">
+                                    Шукаємо досвідченого backend-розробника (PHP з досвідом роботи у високонавантажених
+                                    проектах) для створення та підтримки продуктових сервісів нашої компанії.
+                                    Тобі належить розробляти та підтримувати go-сервіси команди, активно
+                                    брати участь у перенесенні legacy коду з PHP на Go, брати участь у всіх
+                                    архітектурні рішення. 
+                                </p>
+                                <ul class="join__list">
+                                    <li class="join__technology">Go.1.13</li>
+                                    <li class="join__technology">MySQL</li>
+                                    <li class="join__technology">Redis</li>
+                                    <li class="join__technology">RabbitMQ</li>
+                                    <li class="join__technology">Kafka</li>
+                                    <li class="join__technology">PHP7.3</li>
+                                    <li class="join__technology">Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="join__item">
+                            <label for="check1" class="join__work">
+                                <p class="join__text">All world</p>
+                                <h3 class="join__subtitle">PHP\Golang розробник</h3>
+                                <p class="join__text">від 40 000</p>
+                            </label>
+                            <input type="checkbox" class="join__check" id="check1">
+                            <div class="join__description">
+                                <p class="join__text-desc">
+                                    Шукаємо досвідченого backend-розробника (PHP з досвідом роботи у високонавантажених
+                                    проектах) для створення та підтримки продуктових сервісів нашої компанії.
+                                    Тобі належить розробляти та підтримувати go-сервіси команди, активно
+                                    брати участь у перенесенні legacy коду з PHP на Go, брати участь у всіх
+                                    архітектурні рішення. 
+                                </p>
+                                <ul class="join__list">
+                                    <li class="join__technology">Go.1.13</li>
+                                    <li class="join__technology">MySQL</li>
+                                    <li class="join__technology">Redis</li>
+                                    <li class="join__technology">RabbitMQ</li>
+                                    <li class="join__technology">Kafka</li>
+                                    <li class="join__technology">PHP7.3</li>
+                                    <li class="join__technology">Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="join__item">
+                            <label for="check2" class="join__work">
+                                <p class="join__text">All world</p>
+                                <h3 class="join__subtitle">Go Developer</h3>
+                                <p class="join__text">від 30 000</p>
+                            </label>
+                            <input type="checkbox" class="join__check" id="check2">
+                            <div class="join__description">
+                                <p class="join__text-desc">
+                                    Шукаємо досвідченого backend-розробника (PHP з досвідом роботи у високонавантажених
+                                    проектах) для створення та підтримки продуктових сервісів нашої компанії.
+                                    Тобі належить розробляти та підтримувати go-сервіси команди, активно
+                                    брати участь у перенесенні legacy коду з PHP на Go, брати участь у всіх
+                                    архітектурні рішення. 
+                                </p>
+                                <ul class="join__list">
+                                    <li class="join__technology">Go.1.13</li>
+                                    <li class="join__technology">MySQL</li>
+                                    <li class="join__technology">Redis</li>
+                                    <li class="join__technology">RabbitMQ</li>
+                                    <li class="join__technology">Kafka</li>
+                                    <li class="join__technology">PHP7.3</li>
+                                    <li class="join__technology">Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="join__item">
+                            <label for="check3" class="join__work">
+                                <p class="join__text">All world</p>
+                                <h3 class="join__subtitle">Senior Frontend Developer (React)</h3>
+                                <p class="join__text">від 40 000</p>
+                            </label>
+                            <input type="checkbox" class="join__check" id="check3">
+                            <div class="join__description">
+                                <p class="join__text-desc">
+                                    Шукаємо досвідченого backend-розробника (PHP з досвідом роботи у високонавантажених
+                                    проектах) для створення та підтримки продуктових сервісів нашої компанії.
+                                    Тобі належить розробляти та підтримувати go-сервіси команди, активно
+                                    брати участь у перенесенні legacy коду з PHP на Go, брати участь у всіх
+                                    архітектурні рішення. 
+                                </p>
+                                <ul class="join__list">
+                                    <li class="join__technology">Go.1.13</li>
+                                    <li class="join__technology">MySQL</li>
+                                    <li class="join__technology">Redis</li>
+                                    <li class="join__technology">RabbitMQ</li>
+                                    <li class="join__technology">Kafka</li>
+                                    <li class="join__technology">PHP7.3</li>
+                                    <li class="join__technology">Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="join__email" id="email">
+                        Надсилай своє резюме із зазначенням вакансії та коротким супровідним листом на пошту
+                    </p>
+                    <a href="mailto:cv@mxtech.ru" class="join__link">cv@mxtech.ua</a>
+                    <img src="images/star.svg" alt="" class="join__star">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="network">
+                <a href="#" class="network__link">
+                    <svg class="network__img" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="21.8564" cy="21.8564" r="15.5" transform="rotate(-30 21.8564 21.8564)" stroke="url(#paint0_linear_53_15)"/>
+                        <path d="M14.8984 28H13.5703V16.5781H19.9375V17.7578H14.8984V21.9375H19.6328V23.1172H14.8984V28ZM21.8359 16.5781H25.0625C26.5781 16.5781 27.6745 16.8047 28.3516 17.2578C29.0286 17.7109 29.3672 18.4271 29.3672 19.4062C29.3672 20.0833 29.1771 20.6432 28.7969 21.0859C28.4219 21.5234 27.8724 21.8073 27.1484 21.9375V22.0156C28.8828 22.3125 29.75 23.224 29.75 24.75C29.75 25.7708 29.4036 26.5677 28.7109 27.1406C28.0234 27.7135 27.0599 28 25.8203 28H21.8359V16.5781ZM23.1641 21.4688H25.3516C26.2891 21.4688 26.9635 21.3229 27.375 21.0312C27.7865 20.7344 27.9922 20.237 27.9922 19.5391C27.9922 18.8984 27.763 18.4375 27.3047 18.1562C26.8464 17.8698 26.1172 17.7266 25.1172 17.7266H23.1641V21.4688ZM23.1641 22.5938V26.8672H25.5469C26.4688 26.8672 27.1615 26.6901 27.625 26.3359C28.0938 25.9766 28.3281 25.4167 28.3281 24.6562C28.3281 23.9479 28.0885 23.4271 27.6094 23.0938C27.1354 22.7604 26.4115 22.5938 25.4375 22.5938H23.1641Z" fill="url(#paint1_linear_53_15)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_53_15" x1="37.8564" y1="-2.34041" x2="6.78756" y2="-2.34041" gradientUnits="userSpaceOnUse">
+                        <stop offset="0.0943286" stop-color="#2C5AF4" stop-opacity="0"/>
+                        <stop offset="0.318287" stop-color="#A400FF"/>
+                        <stop offset="0.90162" stop-color="#2C5AF4" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_53_15" x1="31" y1="5.36469" x2="12.5529" y2="5.36469" gradientUnits="userSpaceOnUse">
+                        <stop class="network__white" stop-color="#A400FF"/>
+                        <stop class="network__white" offset="1" stop-color="#2C5AF4"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#" class="network__link">
+                    <svg class="network__img" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22.5693" cy="21.8564" r="15.5" transform="rotate(-30 22.5693 21.8564)" stroke="url(#paint0_linear_92_3)"/>
+                        <path d="M15.1396 27.8567V16.4348H16.4678V27.8567H15.1396ZM28.5303 27.8567H27.0146L20.7725 18.2708H20.71C20.7933 19.3958 20.835 20.427 20.835 21.3645V27.8567H19.6084V16.4348H21.1084L27.335 25.9817H27.3975C27.387 25.8411 27.3636 25.3905 27.3271 24.6301C27.2907 23.8645 27.2777 23.3176 27.2881 22.9895V16.4348H28.5303V27.8567Z" fill="url(#paint1_linear_92_3)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_92_3" x1="38.5693" y1="-2.34041" x2="7.50045" y2="-2.34041" gradientUnits="userSpaceOnUse">
+                        <stop offset="0.0943286" stop-color="#2C5AF4" stop-opacity="0"/>
+                        <stop offset="0.318287" stop-color="#A400FF"/>
+                        <stop offset="0.90162" stop-color="#2C5AF4" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_92_3" x1="30.5693" y1="5.22138" x2="14.064" y2="5.22138" gradientUnits="userSpaceOnUse">
+                        <stop class="network__white" stop-color="#A400FF"/>
+                        <stop class="network__white" offset="1" stop-color="#2C5AF4"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#" class="network__link">
+                    <svg class="network__img" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22.2822" cy="21.8564" r="15.5" transform="rotate(-30 22.2822 21.8564)" stroke="url(#paint0_linear_53_17)"/>
+                        <path d="M15.3682 27.8567H14.04V17.6145H10.4229V16.4348H18.9854V17.6145H15.3682V27.8567ZM30.6807 27.8567H29.3682L27.0635 20.2083C26.9541 19.8697 26.8317 19.4426 26.6963 18.927C26.5609 18.4114 26.4906 18.1015 26.4854 17.9973C26.3708 18.6848 26.1885 19.4374 25.9385 20.2551L23.7041 27.8567H22.3916L19.3525 16.4348H20.7588L22.5635 23.4895C22.8135 24.4791 22.9958 25.3749 23.1104 26.177C23.251 25.2239 23.4593 24.2916 23.7354 23.3801L25.7822 16.4348H27.1885L29.3369 23.4426C29.5869 24.2499 29.7979 25.1614 29.9697 26.177C30.0687 25.4374 30.2562 24.5364 30.5322 23.4739L32.3291 16.4348H33.7354L30.6807 27.8567Z" fill="url(#paint1_linear_53_17)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_53_17" x1="38.2822" y1="-2.34041" x2="7.21335" y2="-2.34041" gradientUnits="userSpaceOnUse">
+                        <stop offset="0.0943286" stop-color="#2C5AF4" stop-opacity="0"/>
+                        <stop offset="0.318287" stop-color="#A400FF"/>
+                        <stop offset="0.90162" stop-color="#2C5AF4" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_53_17" x1="34.2822" y1="5.22138" x2="10.9806" y2="5.22138" gradientUnits="userSpaceOnUse">
+                        <stop class="network__white" stop-color="#A400FF"/>
+                        <stop class="network__white" offset="1" stop-color="#2C5AF4"/>
+                        </linearGradient>
+                        <linearGradient id="MyGradient">
+                        <stop offset="12.5%" stop-color="#2C5AF4" />
+                        <stop offset="85.8%" stop-color="#A400FF" />
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+
+            <p class="footer__copyright">© 2017-2021 MXTech</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous">
+        </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
